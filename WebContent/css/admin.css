@@ -1,0 +1,49 @@
+#administration-container .row {
+    margin-top: 35px;
+}
+
+
+/* admin-profile-import.jsp */
+
+#import-warning {
+    font-size: 14px !important;
+    color: red;
+    margin-top: 15px;
+}
+
+.candidate-attach-resume-button {
+    margin-top: 6px;
+    background-color: #FFFFFF;
+    border: 1px solid #ddd !important;
+    position: relative;
+    overflow: hidden;
+}
+
+.candidate-attach-resume-button input[type=file] {
+    position: absolute;
+    top: 0;
+    right: 0;
+    min-width: 100%;
+    min-height: 100%;
+    font-size: 100px;
+    text-align: right;
+    filter: alpha(opacity=0);
+    opacity: 0;
+    background: red;
+    cursor: inherit;
+    display: block;
+}
+
+#spreadsheet-upload {
+    margin-top: 10px;
+    text-align: center;
+}
+
+input[readonly] {
+    background-color: white !important;
+    cursor: text !important;
+}
+
+#administration-container {
+    margin-bottom: 80px;
+}

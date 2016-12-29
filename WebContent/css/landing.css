@@ -1,0 +1,205 @@
+/* CSS for Client landing page */
+
+.background-container {
+    background-color: white;
+}
+
+/* Keyword Search */
+
+.keyword-search-container {
+    margin-top: 42px;
+    height: 48px !important;
+    margin-left: 54px !important;
+    margin-right: 54px !important;
+}
+
+.keyword-search {
+    margin: 0;
+    margin-top: 10px;
+    padding: 0;
+}
+
+.keyword-search .search-query {
+    padding-right: 3px;
+    padding-right: 4px \9;
+    padding-left: 3px;
+    padding-left: 4px \9;
+    /* IE7-8 doesn't have border-radius, so don't indent the padding */
+    margin-bottom: 0;
+    border-radius: 3px;
+}
+
+.keyword-search button {
+    border: 0;
+    background: none;
+    /** belows styles are working good */
+    padding: 2px 5px;
+    margin-top: 2px;
+    position: relative;
+    left: -28px;
+    /* IE7-8 doesn't have border-radius, so don't indent the padding */
+    margin-bottom: 0;
+    border-radius: 3px;
+    color: black;
+}
+
+.search-query:focus + button {
+    z-index: 3;
+}
+
+.input-group-btn:last-child>.btn,
+.input-group-btn:last-child>.btn-group {
+    z-index: 9999 !important;
+}
+
+
+/* Removes box border, indent/shadow and blue outline */
+
+.keyword-search .form-control {
+    border: 0 !important;
+    outline: 0 !important;
+    box-shadow: none !important;
+}
+
+
+/* Altering keyword search placeholder text */
+
+.keyword-search::-webkit-input-placeholder {
+    font-family: "Avenir-next-medium" !important;
+    font-size: 22px !important;
+    color: #5B5B5B !important;
+}
+
+.keyword-search:-ms-input-placeholder {
+    font-family: "Avenir-next-medium" !important;
+    font-size: 12px !important;
+    color: #5B5B5B !important;
+}
+
+.keyword-search::-moz-placeholder {
+    font-family: "Avenir-next-medium" !important;
+    font-size: 12px !important;
+    color: #5B5B5B !important;
+}
+
+.keyword-search:-moz-placeholder {
+    font-family: "Avenir-next-medium" !important;
+    font-size: 12px !important;
+    color: #5B5B5B !important;
+}
+
+
+/* Criteria search */
+
+.criteria-container {
+    margin-left: 54px !important;
+    margin-right: 54px !important;
+    margin-top: 32px !important;
+}
+
+.criteria-container .form-control {
+    border-radius: 0px;
+}
+
+.radius-container {
+    margin-left: 54px !important;
+    margin-right: 54px !important;
+    margin-top: 32px !important;
+    font-size: 15px !important;
+    height: 38px !important;
+}
+
+.radius-container input {
+    border: 0 !important;
+    outline: 0 !important;
+    box-shadow: none !important;
+    background: none;
+    background-color: transparent;
+}
+
+.landing-search-button-container {
+    margin-left: 54px !important;
+    margin-right: 54px !important;
+    margin-top: 54px !important;
+}
+
+.landing-reset-button {
+    background-color: #F8F9FD;
+    border: 1px solid #5B5B5B !important;
+    width: 100%;
+    border-radius: 0px !important;
+}
+
+.landing-search-button {
+    background-color: #EC008C;
+    width: 100%;
+    border-radius: 0px !important;
+}
+
+.criteria-title {
+    margin-top: 9px;
+    margin-left: 12px;
+}
+
+.criteria-container select {
+    border: none !important;
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+.select-container {
+    background-color: #FFFFFF;
+    margin-right: 10px !important;
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+    border: 1px solid #E3E2E2;
+}
+
+
+/* Select2 */
+
+.select2-container--default.select2-container--focus .select2-selection--multiple {
+    border: none !important;
+}
+
+.select2-container--default .select2-selection--single {
+    border: none !important;
+    background-color: transparent!important;
+}
+
+.select2-container--default .select2-selection--multiple {
+    border: none !important;
+}
+
+.select2 {
+    font-family: 'Avenir Next';
+    font-weight: 500;
+    font-style: normal;
+    color: #5B5B5B;
+    width: 100% !important;
+    font-size: 12px !important;
+}
+
+.select2-selection__placeholder {
+    font-size: 15px !important;
+    font-family: 'Avenir Next';
+    font-weight: 500;
+    font-style: normal;
+    color: #5B5B5B;
+}
+
+.landing-search-button-container-mobile {
+    margin-top: 50px;
+}
+
+
+/* Mobile styling */
+
+@media (max-device-width: 736px) {
+    #states-container .select2 {
+        width: 170px;
+    }
+    .radius-container {
+        margin-bottom: 110px;
+    }
+}

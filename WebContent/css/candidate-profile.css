@@ -1,0 +1,377 @@
+#candidate-background-container {
+    background-color: #FFF;
+}
+
+#profile-container button {
+    text-decoration: none !important;
+    color: inherit !important;
+}
+
+#profile-container button:hover {
+    text-decoration: none !important;
+    color: inherit !important;
+    text-decoration: none !important;
+}
+
+#profile-container button:click {
+    text-decoration: none !important;
+    color: inherit !important;
+    text-decoration: none !important;
+}
+
+#candidate-page-title {
+    margin-top: 42px;
+    margin-left: 30px;
+    margin-bottom: 22px;
+}
+
+#candidate-page-first-row {}
+
+.candidate-photo-resume-box {
+    margin-right: 4px;
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+
+.candidate-no-resume-button {
+    background-color: #3f0000;
+    border: 2px solid #E3E2E2;
+    margin-top: 8px;
+}
+
+.candidate-no-resume-button .field-title-1-1 {
+    margin-left: 0px !important;
+    margin-bottom: 0px !important;
+}
+
+.candidate-resume-button {
+    background-color: #3f0000 !important;
+    margin-top: 8px;
+}
+
+.candidate-resume-button .field-title-1-5 {
+    margin-left: 3px;
+    margin-bottom: 10px;
+}
+
+.candidate-photo-resume-box img {
+    width: 175px;
+}
+
+.candidate-summary-box {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 20px;
+}
+
+.candidate-title-box {}
+
+.candidate-summary-label-box {
+    margin-top: 20px;
+}
+
+.candidate-summary-label-box .field-title-1-1 {
+    text-transform: none !important;
+}
+
+.candidate-detail-container {
+    box-shadow: 2px 2px 10px #888888;
+    margin-bottom: 25px;
+    background-color: white;
+    margin-top: 20px;
+}
+
+.candidate-detail-container .list-group-item p {
+    margin-bottom: -5px;
+}
+
+.candidate-detail-container .row {
+    border: 1px solid #ddd;
+    padding: 10px 15px;
+}
+
+.candidate-detail-container .radio,
+.candidate-detail-container .checkbox {
+    font-family: 'Avenir Next';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 12px;
+    line-height: 16px;
+    color: #5B5B5B;
+}
+
+.candidate-detail-container ul {
+    border: none !important;
+    outline: none !important;
+    box-shadow: none !important;
+    overflow: visible !important;
+}
+
+
+/* Pipeline edit box */
+
+.pipeline-box {
+    box-shadow: 2px 2px 10px #888888;
+    padding-left: 0px;
+    padding-right: 0px;
+    background-color: white;
+    margin-top: 15px;
+}
+
+.pipeline-box-title {
+    padding-top: 14px;
+    padding-bottom: 14px;
+    padding-left: 17px;
+    padding-right: 15px;
+    border: 1px solid #E3E2E2;
+    background-color: #FFFFFF;
+}
+
+.pipeline-controls-container {
+    margin-top: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-bottom: 25px;
+}
+
+.pipeline-box-submit {
+    margin-top: 20px;
+    color: white !important;
+    width: 100%;
+    background-color: #EC008C;
+}
+
+.pipeline-box a:hover {
+    text-decoration: none !important;
+}
+
+
+/* Pipeline view details box */
+
+.pipeline-details-container {
+    margin-top: 15px;
+    margin-left: 20px;
+    padding-right: 15px;
+    margin-bottom: 25px;
+}
+
+.pipeline-details-box {
+    margin-bottom: 25px;
+}
+
+.pipeline-box-edit {
+    color: white;
+    width: 100%;
+    background-color: #181453;
+}
+
+.pipeline-notes {
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+
+/* Star rating */
+
+
+/*!
+ * @copyright &copy; Kartik Visweswaran, Krajee.com, 2013 - 2015
+ * @version 3.5.6
+ *
+ * A simple yet powerful JQuery star rating plugin that allows rendering
+ * fractional star ratings and supports Right to Left (RTL) input.
+ *
+ * For more JQuery/Bootstrap plugins and demos visit http://plugins.krajee.com
+ * For more Yii related demos visit http://demos.krajee.com
+ */
+
+.rating-loading {
+    width: 25px;
+    height: 25px;
+    font-size: 0px;
+    color: #fff;
+    background: transparent url('../img/loading.gif') top left no-repeat;
+    border: none;
+}
+
+
+/*
+ * Stars
+ */
+
+.rating-fa {
+    font-family: 'FontAwesome';
+    padding-left: 1px;
+}
+
+.rating-fa .rating-stars:before {
+    padding-left: 1px;
+}
+
+.rating-gly {
+    font-family: 'Glyphicons Halflings';
+}
+
+.rating-gly-star {
+    font-family: 'Glyphicons Halflings';
+    padding-left: 2px;
+}
+
+.rating-gly-star .rating-stars:before {
+    padding-left: 2px;
+}
+
+.rating-lg .rating-gly-star,
+.rating-lg .rating-gly-star .rating-stars:before {
+    padding-left: 4px;
+}
+
+.rating-xl .rating-gly-star,
+.rating-xl .rating-gly-star .rating-stars:before {
+    padding-left: 2px;
+}
+
+.rating-active {
+    cursor: default;
+}
+
+.rating-disabled {
+    cursor: not-allowed;
+}
+
+.rating-uni {
+    font-size: 1.2em;
+    margin-top: -5px;
+}
+
+.rating-container {
+    position: relative;
+    vertical-align: middle;
+    display: inline-block;
+    color: #e3e3e3;
+    overflow: hidden;
+}
+
+.rating-container:before {
+    content: attr(data-content);
+}
+
+.rating-container .rating-stars {
+    position: absolute;
+    left: 0;
+    top: 0;
+    white-space: nowrap;
+    overflow: hidden;
+    color: #fde16d;
+    transition: all 0.25s ease-out;
+    -o-transition: all 0.25s ease-out;
+    -moz-transition: all 0.25s ease-out;
+    -webkit-transition: all 0.25s ease-out;
+}
+
+.rating-container .rating-stars:before {
+    content: attr(data-content);
+    text-shadow: 0 0 1px rgba(0, 0, 0, 0.7);
+}
+
+.rating-container-rtl {
+    position: relative;
+    vertical-align: middle;
+    display: inline-block;
+    overflow: hidden;
+    color: #fde16d;
+}
+
+.rating-container-rtl:before {
+    content: attr(data-content);
+    text-shadow: 0 0 1px rgba(0, 0, 0, 0.7);
+}
+
+.rating-container-rtl .rating-stars {
+    position: absolute;
+    left: 0;
+    top: 0;
+    white-space: nowrap;
+    overflow: hidden;
+    color: #e3e3e3;
+    transition: all 0.25s ease-out;
+    -o-transition: all 0.25s ease-out;
+    -moz-transition: all 0.25s ease-out;
+    -webkit-transition: all 0.25s ease-out;
+}
+
+.rating-container-rtl .rating-stars:before {
+    content: attr(data-content);
+}
+
+
+/**
+ * Rating sizes
+ */
+
+.rating-xl {
+    font-size: 4.89em;
+}
+
+.rating-lg {
+    font-size: 3.91em;
+}
+
+.rating-md {
+    font-size: 3.13em;
+}
+
+.rating-sm {
+    font-size: 2.5em;
+}
+
+.rating-xs {
+    font-size: 1em;
+}
+
+
+/**
+ * Print
+ */
+
+@media print {
+    .rating-container,
+    .rating-container:before,
+    .rating-container-rtl .rating-stars,
+    .rating-container-rtl .rating-stars:before {
+        color: #f3f3f3!important;
+    }
+    .star-rating .clear-rating,
+    .star-rating-rtl .clear-rating {
+        display: none;
+    }
+}
+
+
+/* Mobile styling */
+
+@media (max-device-width: 736px) {
+    #candidate-background-container .container {
+        width: 95%;
+    }
+    .candidate-photo-resume-box img {
+        width: 140px;
+    }
+    .candidate-photo-resume-box {
+        padding-top: 15px;
+    }
+    .candidate-summary-box {
+        padding-bottom: 15px;
+    }
+    .pipeline-box {
+        margin-left: 0px;
+    }
+    .candidate-detail-container {
+        margin-bottom: 0px;
+    }
+    .pipeline-notes {
+        margin-left: 0px;
+        margin-bottom: 20px;
+        margin-top: 15px;
+    }
+}

@@ -1,0 +1,398 @@
+/*** Navbar ***/
+
+
+/** Desktop Navbar **/
+
+.candidate-nav-desktop-container {
+    height: 50px !important;
+    background-color: #002d5b;
+    border-top: 1px solid #D1D9EF;
+    border-bottom: 1px solid #D1D9EF;
+}
+
+.candidate-nav-desktop-container button {
+    color: black !important;
+}
+
+.candidate-nav-desktop {
+    margin-left: 52px !important;
+    margin-top: 15px;
+}
+
+
+/** Mobile Navbar **/
+
+.candidate-nav-mobile-container {
+    height: auto !important;
+    background-color: white;
+    border-top: 1px solid #D1D9EF;
+    border-bottom: 1px solid #D1D9EF;
+}
+
+.candidate-nav-mobile {
+    margin-top: 1px;
+    width: 100% !important;
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+}
+
+.navbar-button {
+    font-size: 16px !important;
+    color: #181453 !important;
+}
+
+.navbar-text {
+    font-family: 'Avenir Next' !important;
+    font-weight: 500 !important;
+    font-style: normal !important;
+    font-size: 10px !important;
+    color: #3B3D43 !important;
+}
+
+.navbar-button .text-center {
+    margin-top: 5px !important;
+}
+
+
+/*** End Navbar ***/
+
+.candidate-profile-background-container {
+    background-color: #FFF;
+    margin-bottom: 35px;
+}
+
+.candidate-profile-container {
+    margin-top: 30px;
+}
+
+.candidate-profile-background-container .container {
+    width: 80%;
+}
+
+
+/* Welcome and jobs section */
+
+#welcome-container {
+    margin-bottom: 20px;
+}
+
+.welcome-background-container {
+    background-color: #FFFFFF;
+}
+
+.welcome-body-container {
+    margin-top: 18px;
+}
+
+.welcome-body-box {
+    margin-bottom: 18px;
+}
+
+#job-search-container {
+    margin-bottom: 15px;
+}
+
+#job-search-container input {
+    margin-top: 15px;
+}
+
+.job-search-button {
+    background-color: #181453;
+    width: 100%;
+    border-radius: 0px !important;
+}
+
+#jobs-container {
+    margin-bottom: 35px;
+}
+
+#job-list-container {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+#job-list-container i {
+    font-size: 20px !important;
+    color: #181453 !important;
+    cursor: pointer;
+    cursor: hand;
+}
+
+#job-list {
+    text-align: left;
+}
+
+#job-list li {
+    margin-bottom: 15px;
+}
+
+.candidate-help-container {
+    background-color: #F7F7F7;
+    margin-left: -15px;
+    margin-right: -15px;
+    padding-top: 10px;
+    padding-left: 25px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+}
+
+.candidate-help-container .row {
+    margin-top: 10px;
+}
+
+.edit-profile-button {
+    background-color: #EC008C !important;
+    height: 42px;
+    color: white;
+    width: 100%;
+}
+
+
+/* Candidate Profile VIEW*/
+
+.candidate-photo-resume-box {
+    margin-right: 4px;
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+
+.candidate-resume-button-container {
+    background-color: #91A3CA !important;
+}
+
+.candidate-resume-button-container .field-title-1-5 {
+    margin-left: 3px;
+    margin-bottom: 10px;
+}
+
+.candidate-photo-resume-box img {
+    width: 100%;
+}
+
+.candidate-summary-box {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 20px;
+}
+
+.candidate-summary-label-box {
+    margin-top: 20px;
+}
+
+.candidate-summary-label-box .field-title-1-1 {
+    text-transform: none !important;
+}
+
+.candidate-detail-container {
+    box-shadow: 2px 2px 10px #888888;
+    margin-bottom: 25px;
+    background-color: white;
+    margin-top: 20px;
+}
+
+.candidate-detail-container .list-group-item p {
+    margin-bottom: -5px;
+}
+
+.candidate-detail-container .row {
+    border: 1px solid #ddd;
+    padding: 10px 15px;
+}
+
+.candidate-detail-container .radio,
+.candidate-detail-container .checkbox {
+    font-family: 'Avenir Next';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 12px;
+    line-height: 16px;
+    color: #5B5B5B;
+}
+
+.candidate-detail-container ul {
+    border: none !important;
+    outline: none !important;
+    box-shadow: none !important;
+    overflow: visible !important;
+}
+
+
+/* Candidate Profile EDIT */
+
+.select2-container--default.select2-container--focus .select2-selection--multiple {
+    border: none !important;
+}
+
+.select2-container--default .select2-selection--single {
+    border: none !important;
+}
+
+.select2-container--default .select2-selection--multiple {
+    border: none !important;
+}
+
+.select2 {
+    width: 100% !important;
+}
+
+#profile-card-edit {
+    padding-right: 0px;
+}
+
+#profile-card-edit ul {
+    border: none !important;
+    outline: none !important;
+    box-shadow: none !important;
+    overflow: visible !important;
+}
+
+.candidate-photo-resume-box-edit {
+    margin-top: 12px;
+    margin-bottom: 12px;
+    margin-left: 12px;
+    margin-right: 20px;
+}
+
+.candidate-photo-resume-box-edit img {
+    width: 100%;
+}
+
+.candidate-attach-resume-button {
+    margin-top: 6px;
+    background-color: #FFFFFF;
+    border: 1px solid #ddd !important;
+    position: relative;
+    overflow: hidden;
+}
+
+.candidate-attach-resume-button input[type=file] {
+    position: absolute;
+    top: 0;
+    right: 0;
+    min-width: 100%;
+    min-height: 100%;
+    font-size: 100px;
+    text-align: right;
+    filter: alpha(opacity=0);
+    opacity: 0;
+    background: red;
+    cursor: inherit;
+    display: block;
+}
+
+input[readonly] {
+    background-color: white !important;
+    cursor: text !important;
+}
+
+.candidate-no-resume-button {
+    background-color: #FFFFFF;
+    border: 2px solid #E3E2E2;
+    margin-top: 8px;
+}
+
+.candidate-no-resume-button .field-title-1-1 {
+    margin-left: 0px !important;
+    margin-bottom: 0px !important;
+}
+
+.candidate-summary-box-edit {
+    padding-top: 10px;
+}
+
+.candidate-summary-box-edit div[class*='col-'] {
+    border: 1px solid #ddd;
+    min-height: 45px;
+}
+
+.candidate-profile-submit-button {
+    color: white !important;
+    width: 100%;
+    background-color: #EC008C;
+}
+
+.candidate-profile-submit-button .btn {
+    color: white !important;
+    width: 100%;
+}
+
+.candidate-profile-submit-button .btn:click {
+    outline: none;
+    text-decoration: none;
+}
+
+.image-upload > input {
+    display: none !important;
+}
+
+.image-upload img {
+    width: 100% !important;
+    cursor: pointer !important;
+}
+
+.incomplete {
+    background-color: rgba(227, 34, 53, 0.1) !important;
+}
+
+.incomplete input,
+.incomplete .select2-selection {
+    background-color: rgba(227, 34, 53, 0.01);
+}
+
+.incomplete .field-title-1-1,
+.incomplete .body-bold-1-1 {
+    color: #E32235;
+}
+
+#states .select2 {
+    width: 45px !important;
+}
+
+.select2 {
+    font-family: 'Avenir Next' !important;
+    font-weight: normal !important;
+    font-style: normal !important;
+    font-size: 12px !important;
+    line-height: 16px !important;
+    color: #181453 !important;
+}
+
+textarea {
+    box-sizing: border-box;
+    width: 100%;
+}
+
+
+/* Mobile styling */
+
+@media (max-device-width: 736px) {
+    .candidate-profile-background-container .container {
+        width: 95%;
+    }
+    .welcome-container {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    .welcome-body-box {
+        margin-bottom: 8px !important;
+    }
+    #profile-card-edit {
+        padding-right: 15px;
+    }
+    .candidate-photo-resume-box img {
+        width: 80%;
+    }
+    .candidate-photo-resume-box-edit img {
+        width: 80%;
+    }
+    .candidate-title-box {
+        text-align: center;
+    }
+    .candidate-summary-box {
+        margin-left: 0px;
+    }
+    .candidate-summary-box-edit {
+        margin-bottom: 15px;
+    }
+}

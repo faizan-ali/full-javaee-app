@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.1"
+             xmlns="http://xmlns.jcp.org/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+             xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd">
+    <persistence-unit name="FinalPlatform"
+                      transaction-type="RESOURCE_LOCAL">
+        <provider>org.eclipse.persistence.jpa.PersistenceProvider</provider>
+        <class>co.workamerica.entities.administrators.Administrators</class>
+        <class>co.workamerica.entities.candidates.Candidates</class>
+        <class>co.workamerica.entities.clients.ClientPipelines</class>
+        <class>co.workamerica.entities.clients.Clients</class>
+        <class>co.workamerica.entities.clients.ProfileViews</class>
+        <class>co.workamerica.entities.criteria.Certifications</class>
+        <class>co.workamerica.entities.criteria.Fields</class>
+        <class>co.workamerica.entities.criteria.Schools</class>
+        <class>co.workamerica.entities.criteria.States</class>
+        <class>co.workamerica.entities.logs.clients.ClientLoginLogs</class>
+        <class>co.workamerica.entities.logs.clients.PipelineChangeLogs</class>
+        <class>co.workamerica.entities.logs.clients.ProfileViewLogs</class>
+        <class>co.workamerica.entities.logs.clients.SearchLogs</class>
+        <class>co.workamerica.entities.logs.candidates.CandidateLoginLogs</class>
+        <class>co.workamerica.entities.logs.candidates.CandidateActivityLogs</class>
+        <class>co.workamerica.entities.statistics.WeeklyStats</class>
+        <class>co.workamerica.entities.schools.SchoolAccounts</class>
+        <class>co.workamerica.entities.logs.schools.SchoolLoginLogs</class>
+        <class>co.workamerica.entities.logs.schools.SchoolActivityLogs</class>
+        <class>co.workamerica.entities.texts.ReceivedTexts</class>
+        <class>co.workamerica.entities.texts.ConversationMessages</class>
+        <class>co.workamerica.entities.texts.Conversations</class>
+        <class>co.workamerica.entities.candidates.UploadedCertifications</class>
+        <class>co.workamerica.entities.companies.Companies</class>
+        <class>co.workamerica.entities.candidates.CandidateCertifications</class>
+        <class>co.workamerica.entities.candidates.CandidateFields</class>
+        <properties>
+            <property name="javax.persistence.jdbc.url"
+                      value=""/>
+            <property name="javax.persistence.jdbc.user" value=""/>
+            <property name="javax.persistence.jdbc.password" value=""/>
+            <property name="javax.persistence.jdbc.driver" value="com.mysql.jdbc.Driver"/>
+            <property name="eclipselink.logging.level" value="FINE"/>
+            <property name="eclipselink.cache.shared.default" value="false"/>
+        </properties>
+    </persistence-unit>
+</persistence>

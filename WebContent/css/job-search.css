@@ -1,0 +1,16 @@
+/* CSS for Client landing page */
+
+.background-container {
+    background-color: #F8F9FD;
+    padding-top: 250px;
+}
+
+.job-search-button {
+    background-color: #181453;
+    width: 100%;
+    border-radius: 0px !important;
+}
+
+#logo-container {
+    margin-bottom: 20px;
+}

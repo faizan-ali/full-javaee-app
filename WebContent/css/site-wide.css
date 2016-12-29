@@ -1,0 +1,687 @@
+/* Importing new fonts */
+
+@font-face {
+    font-family: 'Archer';
+    font-style: normal;
+    src: url('../fonts/Archer-Book-Pro.otf');
+}
+
+@font-face {
+    font-family: 'Archer-pro-medium';
+    font-style: normal;
+    src: url('../fonts/Archer-Medium-Pro.otf');
+}
+
+@font-face {
+    font-family: 'Archer-bold';
+    font-style: normal;
+    src: url('../fonts/Archer-Bold-Pro.otf');
+}
+
+@font-face {
+    font-family: 'Archer-semibold';
+    font-style: normal;
+    src: url('../fonts/Archer-Semibold-Pro.otf');
+}
+
+@font-face {
+    font-family: 'Gotham';
+    font-style: normal;
+    src: url('../fonts/GothamHTF-Bold.otf');
+}
+
+@font-face {
+    font-family: 'Gotham-round';
+    font-style: normal;
+    src: url('../fonts/GothamRnd-Bold.otf');
+}
+
+@font-face {
+    font-family: 'Gotham-medium';
+    font-style: normal;
+    src: url('../fonts/GothamHTF-Medium.otf');
+}
+
+@font-face {
+    font-family: 'Gotham-book';
+    font-style: normal;
+    src: url('../fonts/GothamHTF-Book.otf');
+}
+
+@font-face {
+    font-family: 'Avenir Next Demi';
+    src: url('../fonts/AvenirNext-DemiBold.eot');
+    src: url('../fonts/AvenirNext-DemiBold.eot?#iefix') format('embedded-opentype'), url('../fonts/AvenirNext-DemiBold.woff') format('woff'), url('../fonts/AvenirNext-DemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Avenir Next';
+    src: url('../fonts/AvenirNext-MediumItalic.eot');
+    src: url('../fonts/AvenirNext-MediumItalic.eot?#iefix') format('embedded-opentype'), url('../fonts/AvenirNext-MediumItalic.woff') format('woff'), url('../fonts/AvenirNext-MediumItalic.ttf') format('truetype');
+    font-weight: 500;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Avenir Next';
+    src: url('../fonts/AvenirNext-Medium.eot');
+    src: url('../fonts/AvenirNext-Medium.eot?#iefix') format('embedded-opentype'), url('../fonts/AvenirNext-Medium.woff') format('woff'), url('../fonts/AvenirNext-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Avenir Next';
+    src: url('../fonts/AvenirNext-Bold.eot');
+    src: url('../fonts/AvenirNext-Bold.eot?#iefix') format('embedded-opentype'), url('../fonts/AvenirNext-Bold.woff') format('woff'), url('../fonts/AvenirNext-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Avenir Next';
+    src: url('../fonts/AvenirNext-Regular.eot');
+    src: url('../fonts/AvenirNext-Regular.eot?#iefix') format('embedded-opentype'), url('../fonts/AvenirNext-Regular.woff') format('woff'), url('../fonts/AvenirNext-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+/* End importing fonts */
+
+
+/* Classes for fonts */
+
+.archer {
+    font-family: "Archer";
+}
+
+.archer-bold {
+    font-family: "Archer-bold";
+}
+
+.archer-semibold {
+    font-family: "Archer-semibold"
+}
+
+.gotham {
+    font-family: "Gotham";
+}
+
+.gotham-book {
+    font-family: "Gotham-book";
+}
+
+.gotham-medium {
+    font-family: "Gotham-medium";
+}
+
+.gotham-round {
+    font-family: "Gotham-round";
+}
+
+.dark-blue {
+    color: #1a1852;
+}
+
+.orange {
+    color: #e01b3b;
+}
+
+.green {
+    color: #7dcaa7;
+}
+
+.grey {
+    color: #3a393a;
+}
+
+.baby-blue {
+    color: #d1d9ee;
+}
+
+.heading-1-1 {
+    font-family: "Archer-pro-medium";
+    font-size: 30px;
+    color: #3B3D43;
+}
+
+.heading-1-2 {
+    font-family: "Archer-pro-medium";
+    font-size: 30px;
+    color: #b5b4b4;
+}
+
+.subhead-1-1 {
+    font-family: 'Avenir Next' !important;
+    font-weight: 500 !important;
+    font-style: normal !important;
+    font-size: 14px !important;
+    color: #3B3D43 !important;
+}
+
+.subhead-1-2 {
+    font-family: 'Avenir Next';
+    font-weight: 500;
+    font-style: normal;
+    font-size: 14px;
+    color: #707FA0;
+}
+
+.subhead-1-3 {
+    font-family: 'Avenir Next' !important;
+    font-weight: 500 !important;
+    font-style: normal !important;
+    font-size: 14px !important;
+    color: #181453 !important;
+}
+
+.body-1-1 {
+    font-family: 'Avenir Next' !important;
+    font-weight: normal !important;
+    font-style: normal !important;
+    font-size: 12px !important;
+    line-height: 16px !important;
+    color: #5B5B5B !important;
+}
+
+.body-1-2 {
+    font-family: 'Avenir Next';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 12px;
+    line-height: 16px;
+    color: #181453;
+}
+
+.body-1-3 {
+    font-family: 'Avenir Next';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 12px;
+    color: #FFFFFF;
+}
+
+.body-bold-1-1 {
+    font-family: 'Avenir Next';
+    font-weight: 500;
+    font-style: normal;
+    font-size: 12px;
+    color: #5B5B5B;
+}
+
+.body-bold-1-2 {
+    font-family: 'Avenir Next';
+    font-weight: 500;
+    font-style: normal;
+    font-size: 12px;
+    color: #FFFFFF;
+}
+
+.body-bold-1-3 {
+    font-family: 'Avenir Next';
+    font-weight: 500;
+    font-style: normal;
+    font-size: 12px;
+    color: #E32235;
+}
+
+.body-bold-1-4 {
+    font-family: 'Avenir Next Demi';
+    font-weight: 600;
+    font-style: normal;
+    font-size: 12px;
+    color: #FFFFFF;
+}
+
+.body-bold-1-5 {
+    font-family: 'Avenir Next Demi';
+    font-weight: 600;
+    font-style: normal;
+    font-size: 12px;
+    color: #5B5B5B;
+}
+
+.field-title-1-1 {
+    font-family: 'Avenir Next';
+    font-weight: 500;
+    font-style: normal;
+    font-size: 10px;
+    text-transform: uppercase;
+    color: #959595;
+}
+
+.field-title-1-2 {
+    font-family: 'Avenir Next Demi';
+    font-weight: 600;
+    font-style: normal;
+    font-size: 10px;
+    text-transform: uppercase;
+    color: #91A3CA;
+}
+
+.field-title-1-3 {
+    font-family: 'Avenir Next Demi';
+    font-weight: 600;
+    font-style: normal;
+    font-size: 10px;
+    text-transform: uppercase;
+    color: #E32235;
+}
+
+.field-title-1-4 {
+    font-family: 'Avenir Next';
+    font-weight: 500;
+    font-style: normal;
+    font-size: 10px;
+    color: #585858;
+}
+
+.field-title-1-5 {
+    font-family: 'Avenir Next';
+    font-weight: 500;
+    font-style: normal;
+    font-size: 10px;
+    color: #FFFFFF;
+}
+
+.detail-1-1 {
+    font-family: 'Avenir Next';
+    font-weight: 500;
+    font-style: italic;
+    font-size: 9px;
+    color: #959595;
+}
+
+.detail-1-2 {
+    font-family: 'Avenir Next';
+    font-weight: bold;
+    font-style: normal;
+    font-size: 12px;
+    color: #91A3CA;
+}
+
+
+/* End classes for fonts */
+
+
+/* Navbar */
+
+.navbar-default {
+    background-color: #FFF;
+    border-color: #e7e7e7;
+}
+
+.navbar-text {
+    margin-top: 20px;
+    font-size: 15pt;
+}
+
+
+/* Remove 20px margin below Navbar */
+
+.navbar {
+    margin-bottom: 0px;
+}
+
+
+/* Navbar CTA */
+
+.navbar-cta {
+    position: absolute;
+    right: 250px;
+    bottom: 35px;
+    height: 45px;
+    width: 205px;
+}
+
+
+/* Slightly rounds Fancybox image corners */
+
+.fancybox-image {
+    border-radius: 5px;
+}
+
+
+/* Remove underline from hyperlink */
+
+a:hover {
+    text-decoration: none;
+}
+
+
+/* Footer */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+#wrapper {
+    min-height: 100%;
+    background-color: white;
+}
+
+.background-container {
+    overflow: auto !important;
+    padding-bottom: 50px !important;
+    background-color:white;
+    /* must be same height as the footer */
+}
+
+footer {
+    position: relative !important;
+    margin-top: -50px !important;
+    /* negative value of footer height */
+    height: 50px !important;
+    clear: both;
+    background-color: white;
+    border: 1px solid #e7e7e7;
+}
+
+footer img {
+    margin-top: 0.4%;
+    height: 40px;
+    margin-left: 15%;
+}
+
+#footer-copyright {
+    margin-top: 0.5%;
+    font-size: 12pt;
+    line-height: 22pt;
+    text-align: center;
+    color: black;
+}
+
+#footer-contact p {
+    text-align: right;
+    margin-right: 2%;
+    color: black;
+}
+
+
+/* Call to action button */
+
+.cta {
+    height: 60px;
+    width: 290px;
+}
+
+.mobile-show {
+    display: none;
+}
+
+
+/* centered columns styles */
+
+.row-centered {
+    text-align: center;
+}
+
+.col-centered {
+    display: inline-block;
+    float: none !important;
+    /* reset the text-align */
+    text-align: left;
+    /* inline-block space fix */
+    margin-right: -4px;
+}
+
+.search-button input {
+    background: url(img/search.png) no-repeat;
+    cursor: pointer;
+    width: 200px;
+    height: 100px;
+    border: none;
+}
+
+.table-alternate-rows-lightblue tr:nth-child(even) {
+    background-color: lightblue;
+}
+
+
+/* For file upload buttons */
+
+.btn-file {
+    position: relative;
+    overflow: hidden;
+}
+
+.btn-file input[type=file] {
+    position: absolute;
+    top: 0;
+    right: 0;
+    min-width: 100%;
+    min-height: 100%;
+    font-size: 100px;
+    text-align: right;
+    filter: alpha(opacity=0);
+    opacity: 0;
+    outline: none;
+    background: white;
+    cursor: inherit;
+    display: block;
+}
+
+
+/* Removes underline from buttons */
+
+.btn-link:hover,
+.btn-link:focus {
+    text-decoration: none;
+}
+
+
+/* Card background shadow */
+
+.box-shadow {
+    box-shadow: 2px 2px 10px #888888;
+    background-color: white;
+}
+
+
+/* Navigation within platform */
+
+.platform-nav-container {
+    background-color:#002d5b;
+    border-top: 1px solid #D1D9EF;
+    border-bottom: 1px solid #D1D9EF;
+}
+
+.platform-nav-container a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.platform-nav-container a:hover {
+    text-decoration: none;
+    color: inherit;
+    text-decoration: none;
+}
+
+.platform-nav {
+    margin-left: 52px;
+    margin-right: 52px;
+    height: 50px !important;
+}
+
+.platform-nav button {
+    color: white !important;
+}
+
+.platform-nav-button {
+    margin-top: 17px;
+    padding-bottom: 12px;
+}
+
+.platform-nav-button-border {
+    border-bottom: 6px solid #3f0000;
+}
+
+.platform-nav-back {
+    margin-top: 17px;
+}
+.input-clean {
+    border: 0 !important;
+    outline: 0 !important;
+    box-shadow: none !important;
+}
+
+
+/* Remove horizontal (left-right) or vertical (top-down) padding  (mostly for col elements) */
+
+.remove-horizontal-padding {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+
+.remove-right-padding {
+    padding-right: 0px !important;
+}
+
+.remove-left-padding {
+    padding-left: 0px !important;
+}
+
+.remove-vertical-padding {
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+}
+
+.remove-horizontal-margins {
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+}
+
+
+/* Pipeline status circles */
+
+.hired {
+    border-radius: 50% !important;
+    width: 10px !important;
+    height: 10px !important;
+    background-color: #4BBA88 !important;
+    margin-top: 3px;
+    margin-right: 5px;
+    float: left;
+}
+
+.offer {
+    border-radius: 50% !important;
+    width: 10px !important;
+    height: 10px !important;
+    background-color: #F1BF18 !important;
+    margin-top: 3px;
+    margin-right: 5px;
+    float: left;
+}
+
+.scheduled {
+    border-radius: 50% !important;
+    width: 10px !important;
+    height: 10px !important;
+    background-color: #C4CC7A !important;
+    margin-top: 3px;
+    margin-right: 5px;
+    float: left;
+}
+
+.review {
+    border-radius: 50% !important;
+    width: 10px !important;
+    height: 10px !important;
+    background-color: orange !important;
+    margin-top: 3px;
+    margin-right: 5px;
+    float: left;
+}
+
+.unread {
+    border-radius: 50% !important;
+    width: 10px !important;
+    height: 10px !important;
+    background-color: #959595 !important;
+    float: left;
+    margin-top: 3px;
+    margin-right: 5px;
+}
+
+.declined {
+    border-radius: 50% !important;
+    width: 10px !important;
+    height: 10px !important;
+    background-color: #E32235!important;
+    float: left;
+    margin-top: 3px;
+    margin-right: 5px;
+}
+
+.table-striped > tbody > tr:nth-of-type(odd) {
+    background-color: #F8F9FD !important;
+}
+
+.hfc-default-minimized-view {
+    margin-bottom: 30px;
+}
+
+
+@media (min-width: 0px) and (max-width: 991px) {
+    .slaask-button {
+        bottom: 70px!important;
+    }
+}
+
+@media (min-width: 0px) and (max-device-width: 736px) {
+    .mobile-hide {
+        display: none;
+    }
+    .mobile-show {
+        display: inherit;
+    }
+
+    .footer-img {
+        width: 420px;
+        display: block;
+        margin: 0 auto;
+        margin-top: 1%;
+    }
+    #footer-contact {
+        width: 400px;
+        display: block;
+        margin: 0 auto;
+        color: black;
+    }
+    #footer-contact p {
+        text-align: center;
+        margin-right: 0%;
+    }
+    .remove-horizontal-padding {
+        padding-left: 15px !important;
+        padding-right: 15px !important;
+    }
+    .remove-horizontal-padding-mobile {
+        padding-left: 0px !important;
+        padding-right: 0px !important;
+    }
+    .platform-nav {
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+    .platform-nav-button {
+        font-size: 12px !important;
+    }
+}
+
+
+
+.table-row-striped {
+    background-color: #ECEEEF !important;
+}
+

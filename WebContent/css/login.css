@@ -1,0 +1,174 @@
+.background-container {
+    background-color: white;
+}
+
+.background-container .form-group {
+    margin-bottom: 0px;
+    text-transform: none !important;
+}
+
+.background-container .form-control {
+    padding: 0px 12px;
+    border-radius: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    border-left: none !important;
+    border-right: none !important;
+    min-height: 45px;
+}
+
+.background-container .row:first-of-type {
+    margin-top: 120px;
+}
+
+.login-container {
+    width: 330px !important;
+}
+
+.login-container {
+    width: 455px !important;
+}
+
+#candidateLoginButton,
+#candidateSignupButton,
+#loginButton,
+#signupButton {
+    width: 455px;
+}
+
+.login-title-container {
+    margin-top: 22px;
+    margin-bottom: 22px;
+    margin-left: 16px;
+}
+
+.login-title-container button,
+.login-title-container div {
+    display: inline-block;
+}
+
+.login-credential-container {
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-bottom: 15px;
+}
+
+.login-button {
+    width: 100%;
+    background-color: #00203f !important;
+}
+
+#candidate-signup-form div[class*='col-'],
+#signup-form div[class*='col-'] {
+    border: 1px solid #ddd;
+}
+
+#candidate-signup-form .form-control,
+#signup-form .form-control {
+    min-height: 0px !important;
+}
+
+#candidate-signup-form input,
+#signup-form input {
+    height: 30px !important;
+}
+
+
+/* Facebook login button */
+
+.fb-login-button {
+    text-align: center !important;
+    display: block !important;
+    margin-right: auto !important;
+    margin-left: auto !important;
+    margin-bottom: 18px;
+}
+
+#or-text {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+#facebookImage {
+    display: block !important;
+    margin-right: auto !important;
+    margin-left: auto !important;
+    text-align: center !important;
+}
+
+#facebookImage img {
+    width: 300px;
+}
+
+
+/* Altering placeholder text */
+
+#user::-webkit-input-placeholder {
+    font-family: "Avenir-next-medium" !important;
+    font-size: 10px !important;
+    text-transform: uppercase !important;
+    color: #959595 !important;
+}
+
+#user:-ms-input-placeholder {
+    font-family: "Avenir-next-medium" !important;
+    font-size: 10px !important;
+    text-transform: uppercase !important;
+    color: #959595 !important;
+}
+
+#user::-moz-placeholder {
+    font-family: "Avenir-next-medium" !important;
+    font-size: 10px !important;
+    text-transform: uppercase !important;
+    color: #959595 !important;
+}
+
+#user:-moz-placeholder {
+    font-family: "Avenir-next-medium" !important;
+    font-size: 10px !important;
+    text-transform: uppercase !important;
+    color: #959595 !important;
+}
+
+#pass::-webkit-input-placeholder {
+    font-family: "Avenir-next-medium" !important;
+    font-size: 10px !important;
+    text-transform: uppercase !important;
+    color: #959595 !important;
+}
+
+#pass:-ms-input-placeholder {
+    font-family: "Avenir-next-medium" !important;
+    font-size: 10px !important;
+    text-transform: uppercase !important;
+    color: #959595 !important;
+}
+
+#pass::-moz-placeholder {
+    font-family: "Avenir-next-medium" !important;
+    font-size: 10px !important;
+    text-transform: uppercase !important;
+    color: #959595 !important;
+}
+
+#pass:-moz-placeholder {
+    font-family: "Avenir-next-medium" !important;
+    font-size: 10px !important;
+    text-transform: uppercase !important;
+    color: #959595 !important;
+}
+
+
+/* Mobile styling */
+
+@media (max-device-width: 736px) {
+    .login-container {
+        width: 330px !important;
+    }
+    .login-button {
+        width: 330px !important;
+    }
+}

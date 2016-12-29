@@ -1,0 +1,9 @@
+/* school-candidate-profile.jsp */
+
+.candidate-attach-resume-button {
+    margin-top: 6px;
+    background-color: #FFFFFF;
+    border: 1px solid #ddd !important;
+    position: relative;
+    overflow: hidden;
+}

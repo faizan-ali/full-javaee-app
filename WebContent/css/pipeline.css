@@ -1,0 +1,23 @@
+table th:last-of-type {
+    width: 75px !important;
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+}
+
+table th .icon-trash {
+    margin-left: 13px;
+}
+
+table tr td:last-of-type {
+    width: 75px !important;
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+}
+
+#pipline-background-container {
+    background-color: #F8F9FD;
+}
+
+#pipeline-background-container {
+    padding-bottom: 20px;
+}

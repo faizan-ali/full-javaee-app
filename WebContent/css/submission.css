@@ -1,0 +1,22 @@
+body {
+    margin-top: 150px;
+}
+
+#submission-heading {
+    font-size: 42pt;
+    line-height: 50.5pt;
+    width: 85%;
+    margin: 0px auto;
+    text-align: center;
+    margin-top: 25px;
+}
+
+#submission-text {
+    line-height: 24pt;
+    font-size: 20pt;
+    width: 40%;
+    margin-top: 35px;
+    margin-left: 30%;
+    margin-bottom: 35px;
+    text-align: center;
+}

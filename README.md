@@ -4,10 +4,11 @@
 ###### An earlier version of the WorkAmerica platform
 Visit us at www.workamerica.co
 
-This codebase is one of our earliest full-fledged product versions (a refined MVP of sorts) that ran in production for about 8 months. Realizing that it's sitting around gathering dust, we decided to publish the code hoping that it may be of use to somebody out there.
+This codebase is amongst our earlier approaches to developing a full-fledged application (an MVP of sorts). Realizing that it's sitting around gathering dust, we decided to publish the code hoping that it may be of use to somebody out there.
 
-Some of the technologies employed are rather archaic (at least in their implementation), while some can be found in modern applications today.
-The application is built in Java EE 7, serving content on Java Server Pages (JSPs). It employs EclipseLink 2.0 as the ORM communicating with a MySQL database. The frontend is built on Bootstrap 3 with sprinklings of pure (and sometimes lousy) JavaScript and jQuery here and there. 
+Some of the technologies employed are rather archaic (at least in their implementation), while some can be found in modern applications today. The application is built in Java EE 7, serving content on Java Server Pages (JSPs). It employs EclipseLink 2.0 as the ORM communicating with a MySQL database. The frontend is built on Bootstrap 3 with sprinklings of pure (and sometimes lousy) JavaScript and jQuery here and there.
+
+The application is essentially a database of candidates in the skilled trades (with profiles and logins) that can be searched for by specific criteria such as their credentials, trade, or location. It allows candidates to login and fill out their profiles, and allows employers to login, search for, and filter out candidates to hire. It has all the functionality to do all the above plus much more.
 
 Over the next few months I'll compile examples here of what I think may be useful code across this codebase. This can include API calls on popular services such as Twilio or SendGrid, or more complex scenarios such as implementing a radius-based search of people using the Haversine formula. Since the product's core is data exchange and functionality via pure Servlets, an almost legacy technology (IMO), most of the useful tidbits will be found in helper classes I wrote. 
 

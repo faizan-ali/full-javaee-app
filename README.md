@@ -22,7 +22,7 @@ Cheers
 
 ###### External APIs:
 
-1. [Add a new member to a list using the MailChimp API v3.0](https://github.com/faizan-ali/workamerica-former/blob/master/src/co/workamerica/functionality/mailchimp/MailChimpNewsletter.java)
+1. [Add a new member to a list using the MailChimp API v3.0](https://github.com/faizan-ali/full-javaee-app/blob/master/src/co/workamerica/functionality/mailchimp/MailChimpNewsletter.java)
 1. [Register a user using Facebook authentication](https://github.com/faizan-ali/workamerica-former/blob/master/src/co/workamerica/functionality/facebook/FacebookSignupServlet.java)
 1. [Send an e-mail via SendGrid](https://github.com/faizan-ali/workamerica-former/blob/master/src/co/workamerica/functionality/sendgrid/API/SendGridObject.java)
 5. [Add a new SendGrid contact](https://github.com/faizan-ali/workamerica-former/blob/master/src/co/workamerica/functionality/sendgrid/API/SendGridContacts.java)
